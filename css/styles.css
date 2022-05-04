@@ -59,7 +59,7 @@ body {
   display: flex;
   align-items: center;
 }
-.menu-link::after {
+.menu-link.current::after {
   content: "";
   width: 100%;
   height: 4px;
@@ -85,7 +85,7 @@ body {
   color: var(--secondary-color);
   padding-top: 32px;
   padding-bottom: 32px;
-  display: inline-block;
+  display: block;
 }
 .menu-link:hover {
   color: #2196f3;
